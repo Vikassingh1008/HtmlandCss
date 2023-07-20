@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+
+}
+.list
+{
+    display: flex;
+    gap: 20px;
+    padding-right:500px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 20px;
+
+}
+button{
+    padding: 10px;
+    background-color: blue;
+    color: wheat;
+    font-weight: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.left{
+    margin-left: 20px;
+}
+h1{
+    font-size: 50px;
+    color: blue;
+    
+}
+span{
+    color: aqua;
+}
+p{
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 30px;
+}
